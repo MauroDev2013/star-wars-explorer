@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="shortcut icon" href="assets/imagens/soldado.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="index">
+        <div id="dragon">
+            <div id="cabecalho">
+                <h1 class="brilho">Star Wars Explorer</h1>
+            </div>
+            <h4>Explore o universo do star do star wars e descubra os seus personagens favoritos.</h4>
+            <div class="while">
+                <h3 id="meu-paragrafo">digite um numero de 1 á 83 para ver um personagem.</h3>
+                <div class="campo">
+                    <img src="assets/imagens/lupa.png" alt="lupa" id="lupa">
+                    <input type="text" id="anText">
+                    <button id="procurar"><img src="assets/imagens/lupa.png" alt="lupa" id="lupaProcurar"></button>
+                </div>
+            </div>
+        </div>
+        <div id="resultadoPersonagens">
+            <div id="info-personagem">
+                <h2 id="titulo-info">informações: </h2>
+            </div>
+            <div id="personagem-imagem">
+
+            </div>
+            <div id="planeta-container">
+                <div id="imagem-planeta"></div>
+                <div id="nome-planeta"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/three@0.155.0/build/three.min.js"></script>
+    <script src="arquivo.js"></script>
+</body>
+</html>
